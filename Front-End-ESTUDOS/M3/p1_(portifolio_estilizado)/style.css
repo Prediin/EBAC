@@ -1,0 +1,89 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #001f00;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background: linear-gradient(45deg, rgb(255, 124, 198), rgb(119, 160, 255));
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+header p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção */
+section {
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* Article */
+article {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid cyan;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+article a:hover {
+    color: rgb(0, 102, 255);
+}
+
+/* Footer */
+footer {
+    color: grey;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

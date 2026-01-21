@@ -1,0 +1,56 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Calculadora IMC */
+div {
+    background-color: rgb(201, 231, 231);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.526);
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+div label {
+    background: linear-gradient(90deg, rgb(0, 255, 0), rgba(0, 255, 0, 0));
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div input {
+    border: solid 2px rgba(8, 12, 73, 0.437);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+div button {
+    background-color: rgb(253, 255, 108);
+    padding: 10px;
+    font-weight: bold;
+    border: solid 2px rgba(4, 7, 43, 0.441);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.526);
+}
+
+div button:active {
+    background: radial-gradient(rgb(255, 255, 118), rgba(3, 8, 47, 0.177));
+    box-shadow: none;
+}
+
+div p {
+    background: linear-gradient(90deg, rgb(255, 123, 0), rgba(255, 85, 0, 0));
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+}

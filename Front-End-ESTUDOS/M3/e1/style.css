@@ -1,0 +1,160 @@
+/* RESET e BODY */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 255, 162);
+}
+
+strong {
+    color: rgb(169, 215, 255);
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(45deg, rgb(36, 36, 38), rgb(57, 60, 65));
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.471);
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: solid 2px white;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    padding: 20px 0px 0px 0px;
+}
+
+header h2 {
+    padding: 0px 0px 10px 0px;
+    font-size: medium;
+    font-weight: normal;
+}
+
+header nav {
+    padding: 10px 0px 15px 0px;
+    font-weight: bold;
+}
+
+header nav ul li {
+    display: inline;
+    background-color: rgba(255, 255, 255, 0.23);
+    padding: 7px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.471);
+}
+
+header nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.485);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.471);
+}
+
+/* Seções */
+section {
+    background: linear-gradient(45deg, rgb(36, 36, 38), rgb(57, 60, 65));
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 20px 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px rgba(255, 255, 255, 0.458);
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.264);
+}
+
+section h2 {
+    background: linear-gradient(90deg, rgba(0, 255, 217, 0.275), rgba(0, 128, 0, 0));
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Seção Sobre */
+.sobre {
+    height: 190px;
+}
+
+.sobre h2{
+    display: inline;
+}
+
+.sobre p {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.sobre img {
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Seção Habilidades */
+.habilidades ul {
+    margin: 10px 20px;
+}
+
+.habilidades ul li {
+    margin-top: 5px;
+    background: linear-gradient(90deg, rgba(0, 255, 0, 0.275), rgba(0, 128, 0, 0));
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Seção Projetos */
+.projetos h3 {
+    margin: 10px;
+}
+
+.projetos a {
+    font-weight: bolder;
+}
+
+.projetos ul {
+    margin-top: 5px;
+}
+
+.projetos ul li {
+    list-style: none;
+    background: linear-gradient(90deg, rgba(0, 255, 0, 0.275), rgba(0, 128, 0, 0));
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Rodapé */
+footer {
+    background: linear-gradient(180deg, rgb(36, 36, 38), rgba(57, 60, 65, 0));
+    color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.471);
+    padding: 20px;
+    margin: 100px 0px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.471);
+    border-top: solid 2px white;
+}
+
+footer p {
+    margin: 5px;
+}
+
+footer ul {
+    list-style: none;
+    margin-left: 10px;
+}
+
+
