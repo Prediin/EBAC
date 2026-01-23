@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Idade</title>
+    <script src="verificacaoDeIdade.js"></script>
+</head>
+<body>
+    <h1>Verificação de Idade</h1>
+
+    <div>
+        <label for="idade">Digite sau idade:</label>
+        <input type="number" id="valorIdade"><br>
+
+        <label for="ocupacao">Você é estudante?</label>
+        <select name="ocupacao" id="valorOcupacao">
+            <option value="estudante">Estudante</option>
+            <option value="naoEstudante">Não Estudante</option>
+        </select><br>
+
+        <p>Entrada:</p>
+        <p id="permissao">aguarde...</p>
+
+        <button onclick="verificacaoDeIdade()">verificar</button>
+    </div>
+</body>
+</html>
