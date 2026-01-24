@@ -15,20 +15,20 @@
     </div>
     <img src="IMGS/genio.png" alt="Gènio">
     <div class="estilodiv" id="game">
-        <label for="chute">Vai, chuta ai um número:</label><br>
-        <input type="number" name="chute" id="chute"><br>
+        <label for="chute" id="dialogo">Vai, chuta um número aí!</label><br>
+        <input type="number" id="chute" oninput="limitarCaracteres(this, 3)"><br>
 
         <div class="linha">
             <h2>Chances:</h2>
-            <h3>10</h3><br>
+            <h3 id="chances">20</h3><br>
         </div>
 
         <div class="linha">
             <h2>Dica:</h2><br>
-            <h3>Tenta aí!</h3><br>
+            <h3 id="dica">Tenta aí!</h3><br>
         </div>
 
-        <button onclick="tentarChute()">CHUTAR</button><br>
+        <button id="botaoChute" onclick="tentarChute()">CHUTAR</button><button id="botaoReiniciar" onclick="reiniciar()">TENTAR DE NOVO</button><button id="botaoDenovo" onclick="reiniciar()">JOGAR MAIS UM!</button><br>
     </div>
 </body>
 </html>
