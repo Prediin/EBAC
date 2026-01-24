@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(IMGS/fundo_espaco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.estilodiv {
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    background: radial-gradient(rgb(255, 255, 255), rgba(55, 165, 255, 0.544));
+    border: white solid 1px;
+    border-radius: 15px;
+    box-shadow: white 0px 0px 30px;
+}
+
+h1 {
+    color: rgb(227, 34, 34);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(38, 254, 63), aqua);
+    border-radius: 10px;
+    border: white solid 1px;
+    box-shadow: rgb(211, 255, 231) 0px 0px 30px;
+}
+
+button {
+    transition: all 0.2s ease-in-out;
+    color: rgba(185, 16, 16, 0.625);
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border: white solid 1px;
+    background-color: rgb(239, 255, 97);
+    box-shadow: rgb(251, 255, 40) 0px 0px 30px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: rgb(75, 195, 255);
+    color: white;
+    box-shadow: rgb(75, 195, 255) 0px 0px 30px;
+}
+
+strong {
+    color: rgb(235, 252, 255);
+}
+
+.dica {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    padding: 0px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 0;
+}
+
+.mostrar {
+    display: block;
+    padding: 10px;
+    line-height: 0.9;
+    opacity: 1;
+}
+
+img {
+    animation: float 3s ease-in-out infinite;
+    position: relative;
+    width: 40%;
+    margin: 10px 10px -20px 10px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+#game {
+    margin-bottom: 300px;
+}
+
+#game label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#game input {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(44, 132, 255);
+    border: white solid 1px;
+    box-shadow: rgb(133, 255, 249) 0px 0px 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+#game h3 {
+    display: inline;
+}
+
+.linha h2 {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    background: linear-gradient(90deg, rgba(10, 7, 84, 0.441), rgba(21, 6, 81, 0));
+    color: rgb(235, 252, 255);
+    padding: 5px 100px 5px 7px;
+    margin-right: -110px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.linha h2, .linha h3 {
+    display: inline;
+}
