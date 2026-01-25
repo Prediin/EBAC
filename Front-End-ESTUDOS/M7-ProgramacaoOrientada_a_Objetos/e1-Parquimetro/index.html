@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parquímetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Parquímetro Online</h1>
+
+        <div class="info">
+            <label for="informacoes">Insira as informações:</label>
+            <input type="text" placeholder="Número da placa" id="placa">
+            <input type="text" placeholder="Modelo do veículo" id="modelo">
+            <input type="number" placeholder="Valor a pagar" id="valorEstacionamento">
+        </div><br>
+        
+        <div class="info2">
+            <h2>Saída:</h2>
+            <p>Placa: <strong id="valorPLaca"></strong></p>
+            <p>Modelo: <strong id="textoModelo"></strong></p>
+            <p class="infodestaque">Tempo de permanência: <strong id="valorTempo">0</strong> minutos</p>
+            <p class="infodestaque">Troco: R$<strong id="valorTroco">0,00</strong></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

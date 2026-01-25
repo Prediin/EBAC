@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(30, 30, 32);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    width: auto;
+    padding: 0px 50px 20px 50px;
+    margin: 50px auto;
+    border: solid rgba(255, 255, 255, 0.245) 3px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+}
+
+h1 {
+    margin: 0px 0px 20px 0px;
+    padding: 20px 5px 5px 5px;
+    background-color: yellow;
+    color: black;
+    border: solid black 3px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 0px 15px black;
+}
+
+.info {
+    margin: 0px 0px 20px 0px;
+    border-radius: 13px;
+    border: solid rgb(0, 170, 0) 2px;
+    display: inline-block;
+    width: auto;
+    padding: 8px ;
+    box-shadow: none;
+}
+
+label {
+    font-weight: bold;
+    background-color: rgb(0, 170, 0);
+    font-size: 25px;
+    padding: 8px;
+    margin: 0px -8px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+input {
+    display: block;
+    margin: 15px auto;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.info2 {
+    margin: 0px 0px 20px 0px;
+    border-radius: 13px;
+    border: solid rgb(239, 123, 0) 2px;
+    display: inline-block;
+    width: auto;
+    padding: 8px ;
+    box-shadow: none;
+}
+
+h2 {
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(239, 123, 0);
+    font-size: 25px;
+    padding: 8px;
+    margin: -8px -8px 0px -8px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p {
+    font-weight: bold;
+    display: block;
+    margin: 15px auto;
+    padding: 5px;
+    background-color: rgb(183, 15, 0);
+    font-size: 20px;
+    text-align: center;
+    border: solid red ;
+    border-radius: 10px;
+}
+
+.infodestaque {
+    background-color: rgb(0, 166, 11);
+    border: solid rgb(0, 255, 30) ;
+}
