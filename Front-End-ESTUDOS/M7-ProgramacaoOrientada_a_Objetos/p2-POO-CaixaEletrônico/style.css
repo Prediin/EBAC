@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(109, 15, 15);
+    text-align: center;
+}
+
+div {
+    padding: 20px;
+    width: 50%;
+    margin: 50px auto;
+    border: solid rgb(61, 25, 25) 5px;
+    border-radius: 20px;
+    box-shadow: rgba(18, 17, 20, 0.526) 0px 0px 20px;
+    color: white;
+}
+
+h1 {
+    margin: 0px 0px 20px 0px;
+}
+
+p {
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    margin: 0px auto 20px auto;
+    background-color: rgba(255, 255, 255, 0.256);
+    border-radius: 10px;
+    box-shadow: rgba(18, 17, 20, 0.523) 0px 0px 20px;
+}
+
+input {
+    display: block;
+    margin: 20px auto 8px auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(18, 17, 20, 0.496) 0px 0px 20px;
+}
+
+button {
+    transition: all 0.2s ease-in-out;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(61, 190, 26);
+    box-shadow: rgba(18, 17, 20, 0.458) 0px 0px 20px;
+}
+
+button:hover {
+    font-weight: bold;
+    scale: 1.1;
+    box-shadow: rgb(26, 255, 0) 0px 0px 20px;
+}
+
+button:active {
+    color: rgb(61, 190, 26);
+    background-color: white;
+    scale: 0.8;
+}
