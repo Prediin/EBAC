@@ -24,8 +24,16 @@ function tentarChute() {
         return;
     }
 
+    if (valorChute >= 1 || valorChute <= 100) {
+        document.getElementById('dialogo').textContent = 'Isso! Continue Tentando!';
+    }
+
     if (valorChute === numeroSecreto) {
         document.getElementById('dialogo').textContent = 'VOCÊ CONSEGUIU! O NÚMERO SECRETO ERA: ' + numeroSecreto + '!';
+
+        document.getElementById('dica').textContent = 'Conseguiu!';
+
+        document.getElementById('genio').style.scale = 1.5;
 
         botao.disabled = true;
 
@@ -41,10 +49,14 @@ function tentarChute() {
     }
 
     tentativasRestantes--;
-    document.getElementById('chances').textContent = 'Chances: ' + tentativasRestantes;
+    document.getElementById('chances').textContent = tentativasRestantes;
 
     if (tentativasRestantes === 0) {
         document.getElementById('dialogo').textContent = 'Acabou as chances! Quer tentar de novo?';
+
+        document.getElementById('genio').style.opacity = 0;
+
+        document.getElementById('dica').textContent = 'Perdeu!';
 
         botao.disabled = true;
 
@@ -74,7 +86,11 @@ function reiniciar() {
     tentativasRestantes = tentativas;
     numeroSecreto = Math.floor(Math.random() * 100 + 1);
 
+    document.getElementById('genio').style.scale = 1;
+
     document.getElementById('chute').value = '';
+
+    document.getElementById('genio').style.opacity = 1;
 
     document.getElementById('dialogo').textContent = 'Vai, chuta um número aí!';
     document.getElementById('dica').textContent = 'Tenta aí!';
