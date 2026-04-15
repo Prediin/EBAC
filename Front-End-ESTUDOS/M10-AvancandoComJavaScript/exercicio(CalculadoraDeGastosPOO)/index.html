@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gastos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="submit" id="form">
+        <label for="saldo">Saldo: <input type="number" name="saldo" id="saldo" placeholder="Insira seu saldo"></label>
+
+        <label for="categoria">
+            Selecione a Categoria: <select name="categorias" id="categorias">
+                <option value="" disabled selected>Categoria</option>
+                <option value="Alimentação">Alimentação</option>
+                <option value="Transporte">Transporte</option>
+                <option value="Lazer">Lazer</option>
+                <option value="Outros">Outros</option>
+            </select>
+        </label>
+        <label for="gasto">
+            Valor do gasto:
+            <input type="number" id="gasto" placeholder="R$ 0,00">
+        </label>
+
+        <button id="btnCalcular">Calcular</button>
+
+        <label for="total">Total R$:<span id="total">0,00</span></label>
+    </form>
+
+    <script type="module" src="scripts/app.js"></script>
+</body>
+</html>
